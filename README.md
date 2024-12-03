@@ -41,41 +41,111 @@ Firebase CLI
 npm install -g firebase-tools
 
 Git
+
+
 Clone the Repository
+
+
 git clone https://github.com/isulimanm/booking-chatbot-project.git
+
+
 cd booking-chatbot-project
 
 Install Dependencies
+
+
+
 For the Angular Web Application
+
+
 cd travel-planner
+
+
 npm install
+
+
+
 For Firebase Functions
+
+
 cd ../chatbot/functions
+
+
 npm install
 
 Run the Angular Application Locally
+
+
 cd travel-planner
+
+
 ng serve
+
+
+
 Open your browser at http://localhost:4200/.
+
+
 Access the web application.
+
+
 Use the chat interface to interact with the bot.
+
+
 Example commands:
+
+
 "I want to book a hotel in Riyadh."
+
+
 "Cancel my flight booking for tomorrow."
+
+
 "Show my upcoming event bookings."
+
+
+
+
 Project Structure
+
+
 booking-chatbot-project/
+
 ├── chatbot/
+
+
 │   └── functions/
+
+
 │       ├── index.js          # Firebase Functions entry point
+
+
 │       └── package.json
+
+
 ├── travel-planner/
+
+
 │   ├── src/
+
+
 │   │   ├── app/
+
+
 │   │   └── assets/
+
+
 │   ├── angular.json
+
+
 │   └── package.json
+
+
 ├── .gitignore
+
+
 └── README.md
+
+
 chatbot/functions/: Contains Firebase Functions code for Dialogflow fulfillment.
 travel-planner/: Angular web application source code.
