@@ -1,41 +1,48 @@
-Booking Chatbot Project
-Welcome to the Booking Chatbot Project! This project aims to transform traditional GUI-based web interfaces into a conversational, chat-based experience using Natural Language Processing Interface (NLPI). Users can book hotels, flights, and events, as well as edit or cancel their bookings, all through a chat interface.
+# **Booking Chatbot Project**
 
+Welcome to the **Booking Chatbot Project**!  
+Transform traditional GUIs into an intuitive **chat-based experience**.  
+Easily book and manage **hotels**, **flights**, and **events** through a conversational chatbot powered by **Natural Language Processing Interface (NLPI)**.
 
-Features
+---
 
-  Conversational Booking:
-    Book hotels, flights, and events through chat.
-  Manage Bookings:
-    Edit or cancel existing bookings via conversation.
-  Natural Language Understanding:
-    Dialogflow ES handles user intents and entities.
-  Real-time Database:
-    Firestore is used for storing and retrieving booking data.
-  Cloud Functions:
-    Firebase Functions execute backend logic for chatbot intents.
+## **Features**
 
-    
-Technology Stack
-  Frontend:
-    Angular
-  Chatbot:
-    Dialogflow ES
-  Backend:
-    Firebase Functions
-    Firestore (Firebase Realtime Database)
-  Deployment:
-    Firebase Hosting
-  Version Control:
-    Git & GitHub
+- **Conversational Booking**  
+  Book **hotels**, **flights**, and **events** through a chat interface.  
 
+- **Manage Bookings**  
+  Edit or cancel your bookings via natural conversation.  
 
+- **Natural Language Understanding**  
+  Powered by **Dialogflow ES** to understand user intents and entities.  
 
-    Prerequisites
-Node.js (v14 or later)
+- **Real-time Database**  
+  Uses **Firestore** for secure booking data storage and retrieval.  
 
-Angular CLI (v12 or later)
-npm install -g @angular/cli
+- **Cloud Functions**  
+  Backend logic is executed using **Firebase Functions**.  
+
+---
+
+## **Technology Stack**
+
+- **Frontend**: Angular  
+- **Chatbot**: Dialogflow ES  
+- **Backend**: Firebase Functions and Firestore  
+- **Deployment**: Firebase Hosting  
+- **Version Control**: Git & GitHub  
+
+---
+
+## **Prerequisites**
+
+Before you begin, ensure the following are installed:
+
+- **Node.js** (v14 or later)  
+- **Angular CLI** (v12 or later):  
+  ```bash
+  npm install -g @angular/cli
 
 Firebase CLI
 npm install -g firebase-tools
